@@ -5,7 +5,7 @@ date: '2022-07-02'
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(fig.path = "images/")
+knitr::opts_chunk$set(fig.path = "../images/")
 ```
 
 ## R Programming Reflections

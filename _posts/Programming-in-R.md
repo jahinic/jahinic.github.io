@@ -99,7 +99,7 @@ plotting("hist")
 
     ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 
-![](images/plotting-1.png)<!-- -->
+![](../images/plotting-1.png)<!-- -->
 
 ``` r
 plotting("hist", grp = "drv")
@@ -107,7 +107,7 @@ plotting("hist", grp = "drv")
 
     ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 
-![](images/plotting-2.png)<!-- -->
+![](../images/plotting-2.png)<!-- -->
 
 ``` r
 plotting("hist", grp = "drv", grpDisp = "both")
@@ -115,19 +115,19 @@ plotting("hist", grp = "drv", grpDisp = "both")
 
     ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 
-![](images/plotting-3.png)<!-- -->
+![](../images/plotting-3.png)<!-- -->
 
 ``` r
 plotting("box", grp = "manufacturer", grpDisp = "color")
 ```
 
-![](images/plotting-4.png)<!-- -->
+![](../images/plotting-4.png)<!-- -->
 
 ``` r
 plotting("box", grp = "trans", grpDisp = "both")
 ```
 
-![](images/plotting-5.png)<!-- -->
+![](../images/plotting-5.png)<!-- -->
 
 This can speed up our workflow quite a bit as long as we have a solid
 understanding of how to write the functions in a reasonable time-frame.
