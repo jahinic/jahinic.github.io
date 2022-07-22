@@ -100,7 +100,7 @@ rf$results
 plot(varImp(rf))
 ```
 
-![](images/unnamed-chunk-2-1.png)<!-- -->
+![](../images/unnamed-chunk-2-1.png)<!-- -->
 
 For our tuning parameter, we actually had an exact tie between 2 and 4,
 so we will choose 2 just because that is a bit less complex. We can also
